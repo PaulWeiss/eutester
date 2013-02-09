@@ -57,7 +57,7 @@ def main():
     shell_command="cd "+ workmain +";"+" easy_install boto==2.5.2"
     print_command(shell_command)
 
-    shell_command="cd "+ workmain +";"+" yum -y install git gcc python-paramiko python-devel"
+    shell_command="cd "+ workmain +";"+" yum -y install git gcc python-paramiko python-devel unzip"
     print_command(shell_command)
 
     shell_command="cd "+ workmain +";"+" git clone https://github.com/eucalyptus/eutester.git"
